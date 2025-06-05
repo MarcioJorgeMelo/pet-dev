@@ -59,7 +59,11 @@ export function Footer() {
               Cuidando do seu melhor amigo com amor e dedicação.
             </p>
 
-            <a href="#" className="bg-green-500 px-4 py-2 rounded-md">
+            <a
+              href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
+              target="_blank"
+              className="bg-green-500 px-4 py-2 rounded-md"
+            >
               Contato via WhatsApp
             </a>
           </div>
