@@ -1,4 +1,4 @@
-import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import dogImg from "../../../public/hero-dog.webp";
 import catImg from "../../../public/cat-hero.png";
 import Image from "next/image";
@@ -36,7 +36,7 @@ export function Hero() {
                 href="#"
                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
               >
-                <WhatsappLogo className="w-5 h-5" />
+                <WhatsappLogoIcon className="w-5 h-5" />
                 Contato via WhatsApp
               </a>
             </div>
